@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url(background.png);
+    background-attachment: fixed;
+}
+
+.barra {
+    background-color: rgb(67, 30, 30);
+    height: 90px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+    gap: 790px;
+}
+
+.título {
+    font-size: 60px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    color: white;
+}
+
+.paragrafo {
+    font-family: cursive;
+    color: white;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    align-content: space-around;
+    gap: 50px;
+    list-style-type: none;
+    padding-right: 50px;
+    padding-top: 25px;
+    font-size: 19px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.principal {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 220px;
+    flex-direction: column;
+}
+
+.inicio {
+    background-color: rgb(67, 30, 30);
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-top: 240px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+#imageminicio {
+    display: flex;
+    flex-direction: row;
+}
+
+#divisão {
+    padding-bottom: 200px;
+}
+
+.prologo   {
+    background-color: rgb(67, 30, 30);
+    padding-left: 40px;
+    padding-top: 60px;
+    width: 100%;
+}
+.precatalogo {
+    background-color: rgb(67, 30, 30);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    padding-left: 70px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    height: 500px;
+    gap: 40px;
+    text-align: center;
+}
+
+.imagem {
+    height: 400px;
+    width: 400px;
+}
+
+footer{
+    background-color: rgb(67, 30, 30);
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.quemsomos {
+    background-color: rgb(67, 30, 30);
+    width: 800px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#espaço {
+    height: 90px;
+}
+
+.logo {
+    height: 50px;
+}
+
+#logo1 {
+    height: 40px;
+    padding-left: 7px;
+}
+
+.contato {
+    display: flex;
+    gap: 30px;
+}
+
+.listacontato{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 80px;
+    padding-left: 70px;
+}
